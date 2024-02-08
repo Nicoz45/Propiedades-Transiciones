@@ -1,0 +1,72 @@
+.contenedor{
+    width: 300px;
+    height: 450px;
+    border: solid black;
+    margin: auto;
+    margin-top: 100px;
+    background-image: url(../IMG/pngwing.com.png);
+    background-size: cover;
+}
+
+/*.vermas{
+    background: black;
+    color: white;
+    padding: 10px;
+    margin-top: 230px;
+    opacity: 0;
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+}
+
+.vermas p{
+    background: blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedor:hover .vermas{
+    opacity: 1;
+}*/
+
+.vermas{
+    background: black;
+    height: 0px;
+    overflow: hidden;
+    color: white;
+    padding: 10px;
+    margin-top: 230px;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.vermas p{
+    background: blueviolet;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedor:hover .vermas{
+    opacity: 1;
+    height: 200px;
+}
+
+.contenedor:hover{
+    transform: scale3d(1.1, 1.1, 1.5);
+    -webkit-transform: scale3d(1.1, 1.1, 1.5);
+    -moz-transform: scale3d(1.1, 1.1, 1.5);
+    -ms-transform: scale3d(1.1, 1.1, 1.5);
+    -o-transform: scale3d(1.1, 1.1, 1.5);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -ms-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition-delay: 1s;
+}
